@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.main{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.product{
+  display: flex;
+ 
+}
+.small-img ,img{
+    width: 60px;
+    margin-top: 20px;
+    cursor: pointer;
+   
+}
+
+.small-img > img:hover{
+    border: black 1px solid;
+    
+}
+#fullImg {
+  width: 390px;
+  margin: 30px ;
+  cursor: pointer;
+
+}
+.contant h3 , h6 ,p ,h4{
+    margin: 20px;
+    font-family: "Harmonia Sans", sans-serif ,"Joanna Sans Nova", sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    
+}
+.shop-now {
+    padding: 20px;
+    font-family: "Harmonia Sans", sans-serif ,"Joanna Sans Nova", sans-serif;
+    width: 300px;
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    margin-left: 20px;
+    font-size: 15px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+.shop-now:hover{
+    background-color: rgb(211, 208, 208);
+    color: #000;
+}
+@media screen and (max-width:830px) {
+    .main{
+        flex-direction: column;
+    }
+    .contant h3 , h6 ,p ,h4{
+        margin: 0px;
+        padding: 10px;
+    }
+    .shop-now{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width:525px) {
+
+    .small-img ,img{
+    width: 50px;
+}
+#fullImg {
+    width: 330px;
+    margin: 25px;
+}
+
+}
+@media screen and (max-width:465px) {
+
+    .small-img ,img{
+    width: 40px;
+    margin-top: 25px;
+}
+#fullImg {
+    width: 310px;
+    margin: 20px;
+}
+
+}
+@media screen and (max-width:465px) {
+
+    .small-img ,img{
+    width: 40px;
+    margin-top: 25px;
+}
+#fullImg {
+    width: 310px;
+    margin: 15px;
+}
+
+}
+@media screen and (max-width:395px) {
+
+    .small-img ,img{
+    width: 37px;
+    margin-top: 20px;
+}
+#fullImg {
+    width: 300px;
+    margin: 10px;
+}
+
+}
+
+@media screen and (max-width:375px) {
+
+    .small-img ,img{
+    width: 34px;
+    margin-top: 20px;
+}
+#fullImg {
+    width: 270px;
+    margin: 10px;
+}
+
+}
+
+@media screen and (max-width:340px) {
+
+    .small-img ,img{
+        width: 34px;
+        margin-top: 15px;
+    }
+#fullImg {
+    width: 250px;
+    margin: 10px;
+}
+
+}
+
